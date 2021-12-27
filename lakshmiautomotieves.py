@@ -8,6 +8,7 @@ import num2words
 import datetime
 
 
+
 class Ui_LogInWindow(object):
     def setupUi(self, LogInWindow):
         LogInWindow.setObjectName("LogInWindow")
