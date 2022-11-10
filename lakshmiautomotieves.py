@@ -476,9 +476,10 @@ class Ui_AddWindow(object):
         self.currentyear+self.currentmonth+self.currentdate+ui3.enteredVehicleNumber+".pdf")
         # print(outptufilePath)
         tempcanvas = Canvas(outptufilePath)
-        tempcanvas.drawImage("swamy.PNG",20,150)
+        # tempcanvas.drawImage("swamy.PNG",20,150)
         tempcanvas.drawImage("logobw.png",80,410)
         tempcanvas.setFont('Helvetica', 16)
+        
         tempcanvas.drawString(40, 800, "SRI LAKSHMI AUTOMOTIVES")
         tempcanvas.setFont('Helvetica', 11)
         tempcanvas.drawString(40, 780, "Dharapuram Road, Kethanur-641671")
